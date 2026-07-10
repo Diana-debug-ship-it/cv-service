@@ -1,7 +1,7 @@
 import json
 import os
 import time
-import random  # <-- Добавили модуль для рандома
+import random
 from kafka import KafkaProducer
 from ultralytics import YOLO
 
@@ -76,4 +76,4 @@ if __name__ == "__main__":
             time.sleep(5.0) 
             
     except KeyboardInterrupt:
-        print("=== Conveyor simulation stopped manually ===")
+        print("=== [CV-Service] Conveyor simulation stopped manually ===")
